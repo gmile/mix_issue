@@ -29,10 +29,8 @@ defmodule MixIssue.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-     {:exometer, github: "PSPDFKit-labs/exometer", override: true},
      {:exometer_core, github: "PSPDFKit-labs/exometer_core", override: true},
      {:lager, "~> 3.2.1", override: true},
-     {:edown, "~> 0.8.1", override: true},
-     {:elixometer, github: "pinterest/elixometer"}]
+     {:edown, "~> 0.8.1", override: true}]
   end
 end
